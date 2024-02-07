@@ -82,6 +82,15 @@ section{
   height: 25vh;
 }
 
+section p{
+  font-size: 15px;
+  color: white;
+  position: relative;
+  animation: move-words 20s linear infinite;
+  text-align: center;
+  margin-top: 13px;
+}
+
 section .content{
   display: flex;
   width: 100%;
@@ -157,6 +166,15 @@ section .content{
 @media (min-width:884px){
   .content .image img{
     min-width: 500px;
+  }
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
   }
 }
  
