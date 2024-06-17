@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h2,
+      .link {
+        text-align: center;
+      }
+      div {
+        background-color: rgb(206, 197, 255);
+        padding: 0px 60px;
+        margin: 30px auto;
+        display: block;
+        box-sizing: border-box;
+        border: 3px solid rgb(99, 72, 251);
+        max-width: 40%;
+        border-radius: 40px;
+      }
+      input {
+        border-radius: 20px;
+        border: 1px solid grey;
+        padding: 12px 10px;
+        width: 350px;
+        margin-bottom: 20px;
+      }
+      button {
+        background-color: rgb(99, 72, 251);
+        color: white;
+        padding: 10px 30px;
+        border: 1px solid rgb(99, 72, 251);
+        border-radius: 30px;
+        margin: 25px auto;
+        display: block;
+        font-weight: bold;
+        font-size: medium;
+        transform: all 200ms ease-in-out;
+        box-shadow: 2px 2px 3px gray;
+      }
+      button:hover {
+        background-color: white;
+        color: rgb(99, 72, 251);
+      }
+      p {
+        line-height: 5px;
+        font-family: monospace;
+        font-size: 16px;
+      }
+      span {
+        color: rgb(76, 46, 252);
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Create an Account</h2>
+      <br />
+      <p>Full Name</p>
+      <input type="text" placeholder="Your name" />
+      <p>Mobile Number</p>
+      <input type="text" placeholder="Your mobile number" />
+      <p>Email Address</p>
+      <input type="text" placeholder="Your email" />
+      <p>Password</p>
+      <input type="text" placeholder="Your password" />
+
+      <button>Sign Up</button>
+      <p class="link">Already have an account? <span>Sign In</span></p>
+    </div>
+  </body>
+</html>
